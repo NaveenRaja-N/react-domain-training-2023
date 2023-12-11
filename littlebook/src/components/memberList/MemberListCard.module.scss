@@ -1,0 +1,12 @@
+.memberCardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 25px;
+
+}
+.modalTitle{
+    color: var(--black-color);
+    margin:-50px 0 30px 0;
+    font-size: 22px;
+    font-weight: 600;
+}

@@ -1,0 +1,98 @@
+.blogTitle, .details {
+    width: 100%;
+    outline: none;
+    resize: none;
+    border: none;
+    box-sizing:border-box;
+}
+.border{
+    border: black 1px solid;
+}
+.blogTitle {
+    color: var(--black-color);
+    padding: 10px 0;
+   background-color: var(--primary-bg);
+    height: 55px;
+    // margin: 20px auto 0;
+    font-size: 1.95rem;
+    font-weight: 600;
+   font-family: 'Roboto Slab', serif;
+   &::-webkit-scrollbar {
+    display: none;
+}
+}
+.details {
+    color: var(--black-color);
+    font-size: 15.5px;
+    line-height: 1.6;
+    font-weight: 500;
+    background-color: var(--primary-bg);
+    height: 25.9vh;
+    overflow: auto;
+   font-family: 'IBM Plex Sans', sans-serif;
+    opacity: 0.8;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.editButton{
+    background-color: #69f8f8;
+    border: none;
+    color: black;
+    font-weight: 600;
+}
+
+.saveContentButton{
+    background-color: #b355b7;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+.cancelButton{
+    background-color: #69f8f8;
+    border: none;
+    color: black;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.individualContent{ 
+    img {
+    width: 100%;
+    height: 49vh;
+    border-radius: 30px;
+  }
+  
+  
+    width: 50%;
+    padding:30px 50px;
+  background-color: var(--primary-bg);
+  
+ h3 {
+    padding: 20px 10px;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  
+ button {
+    padding: 10px 20px;
+    border-radius: 30px;
+     
+  }
+  .editButtonContainer{
+    margin:20px 20px 0 0 ;
+    display: flex;
+    justify-content: right;
+  }
+  p {
+    
+    height: 300px;
+    display:-webkit-box;
+    -webkit-line-clamp: 17;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 27px;
+  
+  }
+}

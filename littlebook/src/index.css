@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  cursor: pointer;
+}
+
+#light {
+    --primary-bg: #fff;
+    --white-color: #fff;
+    --black-color: #000;
+    --blog-list-bg: #f5f6fa;
+    --member-name-color: #a239a8;
+    --list-card-bg: #fff;
+    --blog-input-bg: #ebecf4;
+}
+
+#dark {
+    --primary-bg: #041d2e;
+    --white-color: #000;
+    --black-color: #fff;
+    --blog-list-bg: #000;
+    --member-name-color: #fff;
+    --list-card-bg: #042b46;
+    --blog-input-bg: #041d2e;
+}

@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto Slab', serif;
+}
+
+.viewMember .membertitle {
+  position: relative;
+  font-size: 21px;
+  font-weight: 400;
+  top: 90px;
+  left: 20px;
+}
+
+.viewMemberContainer img {
+  width: 100%;
+}
+
+.viewMember {
+  position: fixed;
+  right: 0;
+  top: 0;
+  flex-wrap: wrap;
+  bottom: 0;
+  /* display: none; */
+  width: 600px;
+  background-color: white;
+  display: none;
+
+
+}
+
+.viewMemberContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+  /* background-color: brown; */
+
+}
+
+.image-container {
+  width: 32%;
+  padding: 20px;
+
+}
+
+.image-container img {
+  border-radius: 15px;
+}
+
+.image-container h4 {
+  color: #b355b7;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 5px 3px;
+}
+
+.image-container p {
+  padding: 0 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.addNew {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+  width: 600px;
+  padding: 30px;
+  display: none;
+}
+
+.addNew div {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.addNew h2 {
+  margin-top: 50px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.inputblogtitle {
+  font-size: 27px;
+  border: none;
+}
+
+.inputtextarea {
+  font-size: 18px;
+  border: none;
+  margin-top: 50px;
+
+}
+
+.addNew button {
+  font-size: 18px;
+  padding: 10px 50px;
+  border-radius: 30px;
+  background-color: #b355b7;
+  border: none;
+  /* width:0px; */
+  color: white;
+  margin-top: 20px;
+  margin-left: 410px;
+}
+

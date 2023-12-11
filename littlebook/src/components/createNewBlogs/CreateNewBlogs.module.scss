@@ -1,0 +1,55 @@
+.inputContainer {
+    background-color: var( --white-color);
+    height: 95%;
+
+    .blogTitle, .blogDetails {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: var(--white-color);
+        &::placeholder {
+            opacity: 0.75;
+        }
+    }
+    .blogTitle {
+        
+        margin: 30px 0;
+        font-family: 'Roboto Slab';
+        font-size: 1.5rem;
+        font-weight: 400;
+        color:var(--black-color);
+        
+    }
+    .blogDetails {
+        height: 89%;
+        font-family: 'IBM Plex Sans';
+        font-size: 1.1rem;
+        color:var(--black-color);
+        width: 100%;
+        resize: none;
+       
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+.modalTitle {
+margin-bottom: 15px;
+font-size: 1.3rem;
+font-weight: 500;
+font-family: 'Roboto Slab';
+color:var(--black-color);
+}
+.buttonContainer{
+    display: flex;
+    justify-content: end;
+    button{
+        padding: 10px 40px;
+        border-radius: 30px;
+        color: white;
+        background-color: #b355b7;
+        border: none;
+        align-self: flex-end;
+        font-size: 19.5px;
+    }
+}

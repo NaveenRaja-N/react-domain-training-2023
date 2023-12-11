@@ -1,0 +1,79 @@
+.buttonContainer{
+    display: flex;
+    justify-content: end;
+
+    button{
+        padding: 10px 40px;
+        border-radius: 30px;
+        color: white;
+        background-color: #b355b7;
+        border: none;
+        align-self: flex-end;
+        font-size: 19.5px;
+    }
+}
+.createBlogContainer{
+   width: 39%;
+   background-color: var(--white-color);
+    padding:100px 50px;
+    // overflow: scroll;
+    // &::-webkit-scrollbar {
+    //     display: none;
+    // }
+  
+}
+.blogContainer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+.fadeContainer{
+    width: 70%;
+    opacity: 0.6;
+      background-color: black;
+}
+
+.inputContainer {
+  
+    height: 95%;
+
+    .blogTitle, .blogDetails {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: white;
+        &::placeholder {
+            opacity: 0.75;
+        }
+    }
+    .blogTitle {
+        
+        margin: 30px 0;
+        font-family: 'Roboto Slab';
+        font-size: 1.5rem;
+        font-weight: 400;
+        color:black;
+    }
+    .blogDetails {
+        height: 89%;
+        font-family: 'IBM Plex Sans';
+        font-size: 1.1rem;
+        color:black;
+        width: 100%;
+        resize: none;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+.modalTitle {
+margin-bottom: 15px;
+font-size: 1.3rem;
+font-weight: 500;
+font-family: 'Roboto Slab';
+color: black;
+}
